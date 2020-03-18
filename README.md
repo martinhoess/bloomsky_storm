@@ -6,10 +6,11 @@ This is a custom [Homeassistant](https://home-assistant.io) component for the [B
 # What It Does:
 It reads the [BloomSky Storm](https://www.bloomsky.com/product) data via the [BloomSky API](http://weatherlution.com/wp-content/uploads/2016/01/v1.6BloomskyDeviceOwnerAPIDocumentationforBusinessOwners.pdf):
 
+* uvindex
 * rainrate - 10 mins rainfall
 * raindaily - daily rainfall in total (12am-11:59pm)
 * 24hRain - 24 hour rainfall (a rolling 24 hour window)
-* Winddirection
+* winddirection
 * sustainwindspeed - rolling two minute average wind speed
 * windgust - highest wind speed (peak speed in a rolling 10 minute window)
 
