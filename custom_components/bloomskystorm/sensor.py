@@ -18,6 +18,7 @@ _LOGGER = logging.getLogger(__name__)
 DEPENDENCIES = ['bloomskystorm']
 
 """
+‘uvindex’ - UV Index
 ‘rainrate’ - 10 mins rainfall
 ‘raindaily’ - daily rainfall in total (12am-11:59pm)
 ‘24hRain’ - 24 hour rainfall (a rolling 24 hour window)
@@ -27,7 +28,8 @@ DEPENDENCIES = ['bloomskystorm']
 """
 
 # These are the available sensors
-SENSOR_TYPES = ['RainRate',
+SENSOR_TYPES = ['UVIndex',
+                'RainRate',
                 'SustainedWindSpeed',
                 'RainDaily',
                 'WindDirection',
