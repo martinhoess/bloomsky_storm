@@ -1,8 +1,8 @@
 {
-  "domain": "bloomsky_storm",
-  "name": "Bloomsky Storm",
+  "domain": "bloomskystorm",
+  "name": "BloomSky Storm",
   "documentation": "",
-  "dependencies": [],
   "codeowners": [],
-  "requirements": []
+  "iot_class": "cloud_polling",
+  "version": "0.0.1"
 }
