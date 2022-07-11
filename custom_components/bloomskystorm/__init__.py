@@ -7,7 +7,6 @@ https://home-assistant.io/components/bloomsky/
 from datetime import timedelta
 import logging
 
-from aiohttp.hdrs import AUTHORIZATION
 import requests
 import voluptuous as vol
 
@@ -68,7 +67,7 @@ class BloomSkyStorm:
         """Use the API to retrieve a list of devices."""
         _LOGGER.debug("Fetching BloomSky Storm update")
         response = requests.get(
-            self.API_URL, headers={AUTHORIZATION: self._api_key}, params={'unit':'intl'}, timeout=10)
+            self.API_URL, headers={"Authorization": self._api_key}, params={'unit':'intl'}, timeout=10)
         if response.status_code == 401:
             raise RuntimeError("Invalid API_KEY")
         elif response.status_code != 200:
