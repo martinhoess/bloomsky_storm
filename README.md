@@ -1,4 +1,8 @@
 [BloomSky Storm Component](https://github.com/martinhoess/bloomsky_storm) for Home Assistant
+ 
+### ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ 
+# since the BloomSky API no longer works, this repository has been archived - 08/2022
+### ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ ❗❗❗ 
 
 # What This Is:
 This is a custom [Homeassistant](https://home-assistant.io) component for the [BloomSky Storm weather station](https://www.bloomsky.com/product). This component is based on the Home Assistant [BloomSky component](https://github.com/home-assistant/home-assistant/tree/dev/homeassistant/components/bloomsky).
